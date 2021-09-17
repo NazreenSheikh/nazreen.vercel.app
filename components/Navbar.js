@@ -1,35 +1,26 @@
-import Link from 'next/link'
-export default function Navbar() {
+export default function Skills() {
   return (
-    <div>
-      <h2>N A Z R E E N</h2>
-      <ul>
+    <nav className="flex justify-between sticky-nav px-1 py-2 lg:h-20 lg:px-12 lg:items-center md:items-center md:h-14  md:px-8 ">
+      <h2 className="text-custom-green tracking-wider font-bold lg:text-4xl lg:tracking-widest md:text-3xl">
+        NAZREEN
+      </h2>
+      <ul className="flex justify-between space-x-2 text-gray-600 text-sm lg:text-2xl lg:space-x-12 md:text-lg md:space-x-4">
         <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
+          <a href="#Home">Home</a>
         </li>
         <li>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
+          <a href="#About">About</a>
         </li>
         <li>
-          <Link href="/skill">
-            <a>Skill</a>
-          </Link>
+          <a href="#Skill">Skills</a>
         </li>
         <li>
-          <Link href="/project">
-            <a>Project</a>
-          </Link>
+          <a href="#Project">Project</a>
         </li>
         <li>
-          <Link href="/contact">
-            <a>Contact</a>
-          </Link>
+          <a href="#Contact">Contact</a>
         </li>
       </ul>
-    </div>
+    </nav>
   )
 }
