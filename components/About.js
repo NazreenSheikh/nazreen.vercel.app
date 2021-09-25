@@ -4,7 +4,7 @@ export default function About() {
     <div>
       <div
         id="About"
-        className="box-border relative h-screen p-2 mt-8 text-white md:flex-row-reverse bg-custom-green md:mt-8 md:flex"
+        className="box-border relative p-2 mt-0 text-white md:h-screen md:flex-row-reverse bg-custom-green md:flex"
       >
         <div className="box-border absolute left-0 right-0 w-5/12 p-2 m-auto text-xl text-center text-black bg-white border-4 md:border-8 md:text-3xl md:w-1/4 -top-7 border-custom-green">
           About Me
