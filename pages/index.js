@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div
       id="Home"
-      className="box-border h-screen p-2 text-custom-green md:flex "
+      className="box-border p-2 md:h-screen text-custom-green md:flex "
     >
-      <div className="md:w-8 md:h-4/5 md:mb-auto md:mt-16 md:ml-4 bg-custom-green "></div>
+      <div className="md:w-8 md:h-4/5 md:my-auto md:ml-4 bg-custom-green "></div>
       <div className="md:mt-28 md:mb-auto md:ml-12 ">
         <div>
           <p className="text-2xl text-black lg:text-5xl md:text-3xl ">
@@ -27,11 +27,6 @@ export default function Home() {
           </button>
           <ul className="flex justify-between w-3/5 p-2 m-auto text-3xl text-center text-black md:mt-4 md:text-5xl md:w-1/2 md:my-auto md:mx-0 ">
             <li>
-              <a href="http://www.instagram.com/nazreen_sheikhh">
-                <AiFillInstagram />
-              </a>
-            </li>
-            <li>
               <a href="http://www.twitter.com/nazreenshaikh6">
                 <AiFillTwitterCircle />
               </a>
@@ -44,6 +39,11 @@ export default function Home() {
             <li>
               <a href="https://github.com/NazreenSheikh">
                 <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.instagram.com/nazreen_sheikhh">
+                <AiFillInstagram />
               </a>
             </li>
           </ul>
