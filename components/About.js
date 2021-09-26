@@ -20,7 +20,7 @@ export default function About() {
         </div>
         <div className="p-0 m-auto text-center md:ml-2">
           <Image
-            src="/Images/pic2.png"
+            src="/Images/pic2.svg"
             alt="nazreen's pic"
             height={450}
             width={450}

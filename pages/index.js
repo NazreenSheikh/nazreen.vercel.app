@@ -51,7 +51,7 @@ export default function Home() {
       </div>
       <div className="p-4 m-auto text-center md:w-11/12 lg:w-11/12 md:p-0 ">
         <Image
-          src="/Images/Mask Group.png"
+          src="/Images/Mask Group.svg"
           alt="nazreen's pic"
           height={500}
           width={500}
