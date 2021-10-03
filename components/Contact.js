@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa'
 import { HiMail } from 'react-icons/hi'
 import emailjs from 'emailjs-com'
 
-export default function Contact() {
+export default function ContactMe() {
   const [loading, setLoading] = useState('Send')
   const nameRef = useRef('')
   const emailRef = useRef('')
