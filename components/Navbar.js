@@ -6,17 +6,16 @@ export default function Skills() {
           NAZREEN
         </a>
       </h2>
-      <ul className="flex items-center justify-between mx-auto space-x-12 text-lg text-gray-600 md:mx-0 lg:text-2xl md:space-x-12 md:text-lg md:space-x-4">
+      <ul className="flex items-center justify-between mx-auto space-x-10 text-lg text-gray-600 md:text-xl md:mx-0 lg:text-2xl md:space-x-12 md:space-x-4">
         <li>
-          <a href="#Home" className="relative group">
-            Home{' '}
-            <div className="absolute w-full h-1 transition transform hover:scale-100 bg-custom-green"></div>
+          <a href="#Home">
+            Home <div></div>
           </a>
         </li>
         <li>
-          <a href="#About" className="relative ">
+          <a href="#About">
             About
-            <div className="w-full h-1 transition-transform scale-x-0 bg-custom-green hover:scale-x-100"></div>
+            <div></div>
           </a>
         </li>
         <li>
