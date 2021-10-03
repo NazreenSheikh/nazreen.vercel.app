@@ -8,10 +8,16 @@ export default function Skills() {
       </h2>
       <ul className="flex items-center justify-between mx-auto space-x-12 text-lg text-gray-600 md:mx-0 lg:text-2xl md:space-x-12 md:text-lg md:space-x-4">
         <li>
-          <a href="#Home">Home</a>
+          <a href="#Home" className="relative group">
+            Home{' '}
+            <div className="absolute w-full h-1 transition transform hover:scale-100 bg-custom-green"></div>
+          </a>
         </li>
         <li>
-          <a href="#About">About</a>
+          <a href="#About" className="relative ">
+            About
+            <div className="w-full h-1 transition-transform scale-x-0 bg-custom-green hover:scale-x-100"></div>
+          </a>
         </li>
         <li>
           <a href="#Skill">Skills</a>
