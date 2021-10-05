@@ -22,7 +22,12 @@ export default function Contact() {
       message: messageRef.current.value,
     }
     try {
-      const res = await emailjs.send(params)
+      const res = await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE,
+        process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE,
+        params,
+        process.env.NEXT_PUBLIC_EMAIL_JS_USER,
+      )
 
       setLoading('Sent')
     } catch (err) {
