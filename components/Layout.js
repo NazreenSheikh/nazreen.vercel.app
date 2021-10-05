@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Skills from './Skill'
 import Projects from './Project'
 import Contact from './Contact'
+import Footer  from './Footer';
 
 export default function Layout({ children }) {
   return (
@@ -13,6 +14,7 @@ export default function Layout({ children }) {
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }
