@@ -29,27 +29,27 @@ export default function Home() {
           <ul className="flex justify-between w-3/5 px-4 mx-auto mt-8 text-4xl text-center text-black md:mt-6 md:text-5xl md:w-3/4 md:mx-0 ">
             <li>
               <a href="http://www.twitter.com/nazreenshaikh6">
-                <AiFillTwitterCircle />
+                <AiFillTwitterCircle className="hover:text-custom-green" />
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/nazreen-sheikh-865653198/">
-                <FaLinkedin />
+                <FaLinkedin className="hover:text-custom-green" />
               </a>
             </li>
             <li>
               <a href="https://github.com/NazreenSheikh">
-                <FaGithub />
+                <FaGithub className="hover:text-custom-green" />
               </a>
             </li>
             <li>
               <a href="http://www.instagram.com/nazreen_sheikhh">
-                <AiFillInstagram />
+                <AiFillInstagram className="hover:text-custom-green" />
               </a>
             </li>
             <li>
               <a href="mailto:nazreenshaikh0077@gmail.com">
-                <HiMail />
+                <HiMail className="hover:text-custom-green" />
               </a>
             </li>
           </ul>
