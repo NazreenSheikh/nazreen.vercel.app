@@ -10,13 +10,16 @@ export default function About() {
           About Me
         </div>{' '}
         <div className="bg-white md:w-4 md:h-4/5 md:my-auto md:mr-4 "></div>
-        <div className="items-center p-4 mt-12 text-2xl md:w-2/3 item-center md:p-4 md:my-auto md:text-3xl lg:text-4xl">
-          Hii, I am Nazreen. Currently Pursuing ELectrical Engeering From
-          JMI,Delhi.
+        <div className="items-center p-4 mt-12 text-2xl md:w-2/3 item-center md:p-4 md:my-auto lg:text-3xl">
+          Hii, I am Nazreen. Currently Pursuing ELectrical Engeering From JAMIA
+          MILLIA ISLAMIA, DELHI.
+          <br /> I&apos;m a young student passinate about davelopment. I work
+          with decisiveness and conviction. My feild of interest are programming
+          and website designing .
+          <br />
           <br /> I have worked on Several Web Development Projects in the past
           and technologies I prefer Working with include reactjs, nextjs,
-          typescript, python and node js. <br /> <br />{' '}
-          <em> you can also call me Naaz</em>
+          typescript, python and node js.
         </div>
         <div className="p-8 m-auto text-center md:ml-2 md:p-0">
           <Image
