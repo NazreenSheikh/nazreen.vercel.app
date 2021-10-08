@@ -22,9 +22,7 @@ export default function Skills() {
           </a>
           <div className="px-2 py-4 text-center">
             <div className="font-bold tracking-wider">BLOOMS BAY</div>
-            <div className="text-gray-700">
-              React-Firebase-TensorFlow-Tailwind
-            </div>
+            <div className="text-gray-700">React-Express-SQL-Tailwind</div>
             <div className="pt-2 font-bold text-left">Discription:</div>
             <div className="text-left">
               An E-commarce website to explore and buy beautiful flowers for
