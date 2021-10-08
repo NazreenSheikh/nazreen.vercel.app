@@ -40,14 +40,14 @@ export default function Contact() {
   }
 
   return (
-    <div id="Contact" className="box-border relative max-h-screen ">
+    <div id="Contact" className="box-border relative md:h-screen ">
       <div className="box-border absolute left-0 right-0 w-5/12 p-2 m-auto text-xl text-center text-white border-4 border-white md:border-8 bg-custom-green md:text-3xl md:w-1/4 -top-7">
         Contact Me
       </div>
       <div className="flex md:h-screen">
         <div className="bg-custom-green md:w-4 md:my-auto md:h-4/5 md:ml-4"></div>
         <div className="flex flex-col mx-auto mt-16 text-center md:m-auto ">
-          <div className="mb-4 text-2xl md:text-3xl">
+          <div className="mb-4 text-xl md:text-3xl">
             Contact me through social media
           </div>
           <ul className="flex justify-between w-3/5 px-4 mx-auto text-4xl text-center md:mt-2 ">
@@ -77,7 +77,7 @@ export default function Contact() {
               </a>
             </li>
           </ul>
-          <div className="mt-8 text-2xl md:text-3xl">
+          <div className="mt-8 text-xl md:text-3xl">
             Direct send me Your Message :)
           </div>
 
@@ -101,7 +101,7 @@ export default function Contact() {
             <div className="md:px-2">
               <textarea
                 ref={messageRef}
-                cols="40"
+                cols="30"
                 rows="10"
                 placeholder="Message"
                 required
