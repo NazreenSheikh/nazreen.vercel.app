@@ -6,7 +6,7 @@ export default function Skills() {
           NAZREEN
         </a>
       </h2>
-      <ul className="flex items-center justify-between mx-auto space-x-4 text-lg text-gray-600 md:text-xl md:mx-0 lg:text-2xl md:space-x-12 md:space-x-4">
+      <ul className="flex items-center justify-between mx-auto space-x-4 text-lg text-gray-600 md:text-xl md:mx-0 lg:text-2xl md:space-x-12 ">
         <li>
           <a href="#Home">
             Home <div></div>
