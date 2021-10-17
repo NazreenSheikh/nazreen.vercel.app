@@ -9,6 +9,10 @@ module.exports = {
       borderWidth: {
         10: '10px',
       },
+      height: {
+        'cus-height': '36rem',
+        'l-height': '44rem',
+      },
     },
   },
   variants: {
