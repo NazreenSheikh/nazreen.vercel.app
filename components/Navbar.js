@@ -1,6 +1,6 @@
 export default function Skills() {
   return (
-    <nav className="sticky flex justify-between px-1 py-2 h-14 lg:h-20 lg:px-12 md:items-center md:px-8 ">
+    <nav className="sticky flex container w-full mx-auto max-w-screen-2xl justify-between px-1 py-2 h-14 lg:h-20 lg:px-12 md:items-center md:px-8 ">
       <h2 className="font-bold tracking-wider text-custom-green lg:text-5xl lg:tracking-widest md:text-3xl">
         <a href="#" className="hidden md:block">
           NAZREEN
