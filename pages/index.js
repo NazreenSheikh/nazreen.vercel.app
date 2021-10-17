@@ -9,16 +9,13 @@ import Metatags from '../components/Metatags'
 
 export default function Home() {
   return (
-    <main>
+    <main className="container w-full mx-auto max-w-screen-2xl ">
       <Metatags
         title="Nazreen's Protfolio"
         description="Get to know about me and get connected"
       />
-      <div
-        id="Home"
-        className="box-border md:h-screen text-custom-green md:flex "
-      >
-        <div className="lg:w-8 md:w-7 md:h-4/5 md:my-auto md:ml-4 bg-custom-green "></div>
+      <div id="Home" className="box-border  text-custom-green md:flex ">
+        <div className="lg:w-8 md:w-7 md:h-cus-height md:my-20 md:ml-4 bg-custom-green "></div>
         <div className="px-4 mt-4 md:m-auto lg:ml-12 md:ml-4">
           <div>
             <p className="text-2xl text-black lg:text-5xl md:text-4xl ">
