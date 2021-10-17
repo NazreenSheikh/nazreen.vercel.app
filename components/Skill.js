@@ -3,13 +3,13 @@ export default function Skills() {
   return (
     <div
       id="Skill"
-      className="box-border relative p-2 text-white bg-white md:max-h-screen "
+      className="box-border relative p-2 text-white bg-white md:max-h-screen container w-full mx-auto max-w-screen-2xl "
     >
       <div className="box-border absolute left-0 right-0 w-5/12 p-2 m-auto text-xl text-center border-4 border-white md:border-8 bg-custom-green md:text-3xl md:w-1/4 -top-7">
         My Skills
       </div>
-      <div className="flex justify-between md:h-screen">
-        <div className="bg-custom-green md:w-4 md:my-auto md:h-4/5 md:ml-4"></div>
+      <div className="flex justify-between ">
+        <div className="bg-custom-green md:w-4 md:h-cus-height md:my-20 md:ml-4"></div>
         <div className="flex flex-col items-center justify-between w-full my-12 space-y-16 md:my-auto ">
           <div className="justify-between w-3/4 border-4 border-black rounded-lg shadow-xl md:flex md:h-28 h-72 bg-custom-green">
             <div className="p-3 text-2xl text-center md:text-4xl">
