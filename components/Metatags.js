@@ -5,7 +5,7 @@ export default function Metatags({
   description = `I&apos;m a young student passinate about davelopment. I work
   with decisiveness and conviction. My feild of interest are programming
   and website designing .`,
-  Image = '/t-pic.png',
+  Image = 'https://nazreen.vercel.app/t-pic.png',
 }) {
   return (
     <Head>
