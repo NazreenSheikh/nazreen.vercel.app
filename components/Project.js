@@ -143,10 +143,16 @@ export default function Skills() {
                 <FaGithub className=" hover:text-custom-green" />
               </a>
             </button>
-          </div>
+          </div>          
+        </div>
+        <div className="mb-16 -mt-10">
+          <a href="https://github.com/NazreenSheikh?tab=repositories">
+              <button className="p-3 mx-4 mt-6 text-white bg-gray-400 md:p-4 rounded-sm">See All Projects</button>
+          </a>
         </div>
 
         <div className="bg-white md:w-4 md:-mt-8 md:h-l-height md:mr-4 "></div>
+
       </div>
     </div>
   )
