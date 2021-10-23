@@ -13,6 +13,9 @@ module.exports = {
         'cus-height': '36rem',
         'l-height': '44rem',
       },
+      width: {
+        "cus-width": "28%",
+      },
     },
   },
   variants: {
