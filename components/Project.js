@@ -4,13 +4,13 @@ export default function Skills() {
   return (
     <div
       id="Project"
-      className="box-border relative p-2 text-black bg-custom-green container w-full mx-auto max-w-screen-2xl  "
+      className="box-border relative px-2 text-black bg-custom-green container w-full mx-auto max-w-screen-2xl  "
     >
       <div className="box-border absolute left-0 right-0 w-5/12 p-2 m-auto text-xl text-center bg-white border-4 md:border-8 border-custom-green md:text-3xl md:w-1/4 -top-7">
         Projects
       </div>
       <div className="flex flex-col items-center justify-between  md:mt-0 md:flex-row ">
-        <div className="w-3/5 max-h-cus-height m-8 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 md:w-1/2 lg:w-1/4 ">
+        <div className="w-4/6 max-h-cus-height mt-16 m-8 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 md:w-1/2 lg:w-96 ">
           {' '}
           <a href="https://blooms-bay.netlify.app/">
             <Image
@@ -37,7 +37,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className="w-3/5 max-h-cus-height m-8 mt-12 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 md:w-1/2 lg:w-1/4 lg:ml-8 ">
+        <div className="w-4/6 max-h-cus-height m-8 mt-12 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 md:w-1/2 lg:w-96 lg:ml-8 ">
           <a href="https://react-gallery-sheikh.vercel.app/">
             <Image
               src="/Projects/web-Gallery.png"
@@ -64,7 +64,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className="w-3/5 max-h-cus-height m-8 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 md:w-1/4 md:hidden lg:block">
+        <div className="w-4/6 max-h-cus-height m-8 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 lg:w-96 md:hidden lg:block">
           {' '}
           <a href="https://nazreensheikh.github.io/TextUtils/">
             <Image
@@ -93,7 +93,7 @@ export default function Skills() {
         <div className="bg-white md:w-4 md:mt-20 md:h-l-height md:mr-4 "></div>
       </div>
       <div className="flex flex-col items-center justify-between md:mb-20 md:flex-row">
-        <div className="hidden w-3/5 max-h-cus-height m-8 bg-white border-4 border-black rounded-lg shadow-lg md:my-auto md:w-1/2 md:block lg:hidden">
+        <div className="hidden w-4/6 max-h-cus-height m-8 bg-white border-4 border-black rounded-lg shadow-lg md:my-auto md:w-1/2 md:block lg:hidden">
           {' '}
           <a href="https://nazreensheikh.github.io/TextUtils/">
             <Image
@@ -119,7 +119,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className="w-3/5 max-h-cus-height mt-8 mb-16 bg-white border-4 border-black rounded-lg shadow-lg md:m-8 md:mt-0 md:mb-0 md:w-1/2 lg:w-1/4 lg:ml-8">
+        <div className="w-4/6 max-h-cus-height mt-8 mb-16 bg-white border-4 border-black rounded-lg shadow-lg md:m-8 md:mt-0 md:mb-0 md:w-1/2 lg:w-cus-width lg:ml-8">
           {' '}
           <a href="https://momentum-phi.vercel.app/">
             <Image
@@ -145,13 +145,13 @@ export default function Skills() {
             </button>
           </div>          
         </div>
-        <div className="mb-16 -mt-10">
+        <div className="mb-16 -mt-10 md:hidden">
           <a href="https://github.com/NazreenSheikh?tab=repositories">
               <button className="p-3 mx-4 mt-6 text-white bg-gray-400 md:p-4 rounded-sm">See All Projects</button>
           </a>
         </div>
 
-        <div className="bg-white md:w-4 md:-mt-8 md:h-l-height md:mr-4 "></div>
+        <div className="bg-white md:w-4 md:mb-20 md:-mt-8 md:h-l-height md:mr-4 "></div>
 
       </div>
     </div>
