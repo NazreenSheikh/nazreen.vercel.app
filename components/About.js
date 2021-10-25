@@ -13,9 +13,9 @@ export default function About() {
         <div className="items-center p-4 mt-12 text-2xl md:w-2/3 item-center md:p-4 md:my-auto lg:text-3xl">
           Hii, I am Nazreen. Currently Pursuing Electrical Engineering From
           JAMIA MILLIA ISLAMIA, DELHI.
-          <br /> I'm a young student passionate about development. I work with
-          decisiveness and conviction. My field of interest is programming and
-          website design.
+          <br /> I&apos;m a young student passionate about development. I work
+          with decisiveness and conviction. My field of interest is programming
+          and website design.
           <br />
           <br /> I have worked on Several Web Development Projects in the past
           and the technologies I prefer Working with include reactjs, nextjs,
