@@ -10,11 +10,7 @@ export default function Layout({ children }) {
     <div>
       <Navbar />
       <main>{children}</main>
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
+      
     </div>
   )
 }
