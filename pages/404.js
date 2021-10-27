@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 const NotFound = () => {
   return (
-    <div className="align-center w-full mx-auto max-w-screen-2xl">
-      <h1>Oooops...</h1>
-      <h2>That page cann&apos;t be found.</h2>
+    <div className="text-center w-full m-auto align-center flex flex-col h-96 my-20 justify-center max-w-screen-2xl">
+      <h1 className="text-2xl mb-5 font-medium">Oooops...</h1>
+      <h2 className="text-xl mb-2">That page cann&apos;t be found.</h2>
       <p>
         GO back to the{' '}
         <Link href="/">

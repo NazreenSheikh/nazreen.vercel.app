@@ -41,7 +41,7 @@ export default function Contact() {
 
   return (
     <div id="Contact" className=" relative w-full mx-auto max-w-screen-2xl">
-      <div className="box-border absolute left-0 right-0 w-5/12 p-2 m-auto text-xl text-center border-4 border-white md:border-8 bg-custom-green md:text-3xl md:w-1/4  -top-7 md:-top-28">
+      <div className="box-border absolute left-0 right-0 w-5/12 p-2 m-auto text-white text-xl text-center border-4 border-white md:border-8 bg-custom-green md:text-3xl md:w-1/4  -top-7 md:-top-28">
         Contact Me
       </div>
       <div className="flex">
