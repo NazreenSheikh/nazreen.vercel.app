@@ -119,7 +119,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className="  my-10 md:mb-24 md:my-0 md:mx-4 bg-white mx-16 px-8 md:px-4 border-4 border-black rounded-lg shadow-lg md:mt-20 lg:w-cus-width">
+        <div className="  mt-10 mb-20 md:mb-24 md:my-0 md:mx-4 bg-white mx-16 px-8 md:px-4 border-4 border-black rounded-lg shadow-lg md:mt-20 lg:w-cus-width">
           {' '}
           <a href="https://momentum-phi.vercel.app/">
             <Image
