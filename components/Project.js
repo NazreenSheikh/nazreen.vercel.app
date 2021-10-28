@@ -9,15 +9,15 @@ export default function Skills() {
       <div className="box-border absolute left-0 right-0 w-5/12 p-2 m-auto text-xl text-center bg-white border-4 md:border-8 border-custom-green md:text-3xl md:w-1/4 -top-7">
         Projects
       </div>
-      <div className="flex flex-col items-center justify-between  md:mt-0 md:flex-row ">
-        <div className="w-4/6 max-h-cus-height mt-16 m-8 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 md:w-1/2 lg:w-96 ">
+      <div className="flex flex-col justify-between md:flex-row pt-10 ">
+        <div className=" my-10 md:mb-10 md:my-0 md:mx-4 bg-white mx-16 px-8 md:px-4 md:mt-12  border-4 mx-4 px-4 border-black rounded-lg shadow-lg md:mt-20  ">
           {' '}
           <a href="https://blooms-bay.netlify.app/">
             <Image
               src="/Projects/Blooms-bay.png"
               alt=""
-              height={500}
-              width={500}
+              height={400}
+              width={400}
             />{' '}
           </a>
           <div className="px-2 py-4 text-center">
@@ -30,20 +30,20 @@ export default function Skills() {
               according to upcoming fest or occassional events.
             </div>
 
-            <button className="text-2xl">
+            <button className="text-4xl mt-4">
               <a href="https://github.com/NazreenSheikh/flower-management-frontend">
                 <FaGithub className=" hover:text-custom-green" />
               </a>
             </button>
           </div>
         </div>
-        <div className="w-4/6 max-h-cus-height m-8 mt-12 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 md:w-1/2 lg:w-96 lg:ml-8 ">
+        <div className=" my-10 md:my-0 md:mb-10 md:mx-4 bg-white mx-16 px-8 md:px-4 md:mt-12 border-4 border-black rounded-lg shadow-lg md:mt-20  ">
           <a href="https://react-gallery-sheikh.vercel.app/">
             <Image
               src="/Projects/web-Gallery.png"
               alt=""
-              height={500}
-              width={500}
+              height={400}
+              width={400}
             />{' '}
           </a>
           <div className="px-2 py-4 text-center">
@@ -57,21 +57,21 @@ export default function Skills() {
               information about any particular picture. To download any picture
               you have to first login to the web gallery.
             </div>
-            <button className="text-2xl">
+            <button className="text-4xl mt-4">
               <a href="https://github.com/NazreenSheikh/React-Gallery">
                 <FaGithub className=" hover:text-custom-green" />
               </a>
             </button>
           </div>
         </div>
-        <div className="w-4/6 max-h-cus-height m-8 bg-white border-4 border-black rounded-lg shadow-lg md:mt-20 lg:w-96 md:hidden lg:block">
+        <div className=" my-10  md:my-0  md:mb-10 md:mx-4 bg-white mx-16 px-8 md:px-4  border-4 border-black rounded-lg shadow-lg md:mt-20  md:hidden lg:block">
           {' '}
           <a href="https://nazreensheikh.github.io/TextUtils/">
             <Image
               src="/Projects/TextUtils.png"
               alt=""
-              height={500}
-              width={500}
+              height={400}
+              width={400}
             />{' '}
           </a>
           <div className="px-2 py-4 text-center">
@@ -83,24 +83,24 @@ export default function Skills() {
               appearance to somthing new according to your chosen option. You
               can also switch to textutils dark or light mode.
             </div>
-            <button className="text-2xl">
+            <button className="text-4xl mt-4">
               <a href="https://github.com/NazreenSheikh/textutils">
                 <FaGithub className=" hover:text-custom-green" />
               </a>
             </button>
           </div>
         </div>
-        <div className="bg-white md:w-4 md:mt-20 md:h-l-height md:mr-4 "></div>
+        {/* <div className="bg-white md:w-4 md:mt-20 md:h-l-height md:mr-4 "></div> */}
       </div>
-      <div className="flex flex-col items-center justify-between md:mb-20 md:flex-row">
-        <div className="hidden w-4/6 max-h-cus-height m-8 bg-white border-4 border-black rounded-lg shadow-lg md:my-auto md:w-1/2 md:block lg:hidden">
+      <div className="flex justify-between md:mt-10">
+        <div className="hidden  md:my-0 md:mx-4 bg-white mx-16 px-8 md:px-4  border-4 border-black rounded-lg shadow-lg md:my-auto  md:block lg:hidden">
           {' '}
           <a href="https://nazreensheikh.github.io/TextUtils/">
             <Image
               src="/Projects/TextUtils.png"
               alt=""
-              height={500}
-              width={500}
+              height={400}
+              width={400}
             />
           </a>
           <div className="px-2 py-4 text-center">
@@ -112,21 +112,21 @@ export default function Skills() {
               appearance to somthing new according to your chosen option. You
               can also switch to textutils dark or light mode.
             </div>
-            <button className="text-2xl">
+            <button className="text-4xl mt-4">
               <a href="https://github.com/NazreenSheikh/textutils">
                 <FaGithub className=" hover:text-custom-green" />
               </a>
             </button>
           </div>
         </div>
-        <div className="w-4/6 max-h-cus-height mt-8 mb-16 bg-white border-4 border-black rounded-lg shadow-lg md:m-8 md:mt-0 md:mb-0 md:w-1/2 lg:w-cus-width lg:ml-8">
+        <div className="  my-10 md:mb-24 md:my-0 md:mx-4 bg-white mx-16 px-8 md:px-4 border-4 border-black rounded-lg shadow-lg md:mt-20 lg:w-cus-width">
           {' '}
           <a href="https://momentum-phi.vercel.app/">
             <Image
               src="/Projects/Momentum.png"
               alt=""
-              height={500}
-              width={500}
+              height={400}
+              width={400}
             />
           </a>
           <div className="px-2 py-4 text-center">
@@ -138,22 +138,23 @@ export default function Skills() {
               quotes and current climate condition at your location. You can add
               your Daily manageable ToDos to it.
             </div>
-            <button className="text-2xl">
+            <button className="text-4xl mt-4">
               <a href="https://github.com/NazreenSheikh/momentum">
                 <FaGithub className=" hover:text-custom-green" />
               </a>
             </button>
-          </div>          
-        </div>
-        <div className="mb-16 -mt-10 md:hidden">
-          <a href="https://github.com/NazreenSheikh?tab=repositories">
-              <button className="p-3 mx-4 mt-6 text-white bg-gray-400 md:p-4 rounded-sm">See All Projects</button>
-          </a>
+          </div>
         </div>
 
-        <div className="bg-white md:w-4 md:mb-20 md:-mt-8 md:h-l-height md:mr-4 "></div>
-
+        {/* <div className="bg-white md:w-4 md:mb-20 md:-mt-8 md:h-l-height md:mr-4 "></div> */}
       </div>
+      {/* <div className=" pb-20   mx-0 justify-center align-center flex md:hidden">
+        <a href="https://github.com/NazreenSheikh?tab=repositories">
+          <button className="p-3 mx-4 mt-6 text-white bg-gray-400 md:p-4 rounded-sm">
+            See All Projects
+          </button>
+        </a>
+      </div> */}
     </div>
   )
 }

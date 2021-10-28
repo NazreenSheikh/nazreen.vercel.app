@@ -9,8 +9,8 @@ export default function About() {
         <div className="box-border absolute left-0 right-0 w-5/12 p-2 m-auto text-xl text-center text-black bg-white border-4 md:border-8 md:text-3xl md:w-1/4 -top-7 border-custom-green">
           About Me
         </div>{' '}
-        <div className="bg-white md:w-4 md:h-cus-height md:my-20 md:mr-4 "></div>
-        <div className="items-center p-4 mt-12 text-2xl md:w-2/3 item-center md:p-4 md:my-auto lg:text-3xl">
+        {/* <div className="md:h-cus-height "></div> */}
+        <div className="items-center p-4 mt-12 text-2xl md:my-36 lg:my-44 md:w-2/3 item-center md:p-4  lg:text-3xl">
           Hii, I am Nazreen. Currently Pursuing Electrical Engineering From
           JAMIA MILLIA ISLAMIA, DELHI.
           <br /> I&apos;m a young student passionate about development. I work
