@@ -12,7 +12,8 @@ export default function About() {
         {/* <div className="md:h-cus-height "></div> */}
         <div className="items-center p-4 mt-12 text-2xl md:my-36 lg:my-44 md:w-2/3 item-center md:p-4  lg:text-3xl">
           Hii, I am Nazreen. Currently Pursuing Electrical Engineering From
-          JAMIA MILLIA ISLAMIA, DELHI.
+          Jamia Millia Islamia, Delhi.
+          <br />
           <br /> I&apos;m a young student passionate about development. I work
           with decisiveness and conviction. My field of interest is programming
           and website design.
