@@ -17,55 +17,46 @@ export const Languages = [
 ]
 
 export const Tools = [
-    {
-        name: 'Mysql',
-        links: 'https://www.mysql.com/',
-        Img: 'mysql-official.svg',
-
-    },
-    {
-        name: 'Git',
-        links: 'https://git-scm.com/',
-        Img: 'git-scm-icon.svg',
-
-    },
-    {
-        name: 'Figma',
-        links: 'https://figma.com/',
-        Img: 'figma-icon.svg',
-
-    },
-    {
-        name: 'Reactjs',
-        links: 'https://reactjs.org/',
-        Img: 'reactjs-icon.svg',
-
-    },
-    {
-        name: 'Nodejs',
-        links: 'https://nodejs.org',
-        Img: 'nodejs-icon.svg',
-
-    },
-    {
-        name: 'VScode',
-        links: 'https://code.visualstudio.com/',
-        Img: 'vscode.svg',
-
-    },
-
-
+  {
+    name: 'Mysql',
+    links: 'https://www.mysql.com/',
+    Img: 'mysql-official.svg',
+  },
+  {
+    name: 'Git',
+    links: 'https://git-scm.com/',
+    Img: 'git-scm-icon.svg',
+  },
+  {
+    name: 'Figma',
+    links: 'https://figma.com/',
+    Img: 'figma-icon.svg',
+  },
+  {
+    name: 'Reactjs',
+    links: 'https://reactjs.org/',
+    Img: 'reactjs-icon.svg',
+  },
+  {
+    name: 'Nodejs',
+    links: 'https://nodejs.org',
+    Img: 'nodejs-icon.svg',
+  },
+  {
+    name: 'VScode',
+    links: 'https://code.visualstudio.com/',
+    Img: 'vscode.svg',
+  },
 ]
-export const Plateforms =[
-    {
-        name: 'Linux',
-        links: 'https://www.linux.org/',
-        Img: 'linux-icon.svg',
-
-    },{
-        name: 'Windows',
-        links: 'https://www.microsoft.com/',
-        Img: 'windows.svg',
-
-    },
+export const Plateforms = [
+  {
+    name: 'Linux',
+    links: 'https://www.linux.org/',
+    Img: 'linux-icon.svg',
+  },
+  {
+    name: 'Windows',
+    links: 'https://www.microsoft.com/',
+    Img: 'windows.svg',
+  },
 ]

@@ -10,7 +10,7 @@ export default function Skills() {
         Projects
       </div>
       <div className="flex flex-col justify-between md:flex-row pt-10 ">
-        <div className=" my-10 md:mb-10 md:my-0 md:mx-4 bg-white mx-16 px-8 md:px-4 md:mt-12  border-4 mx-4 px-4 border-black rounded-lg shadow-lg md:mt-20  ">
+        <div className=" my-10 md:mb-10 md:my-0 md:mx-4 bg-white mx-16 px-2 text-center md:px-4 md:mt-12  border-4 mx-4 px-4 border-black rounded-lg shadow-lg md:mt-20  ">
           {' '}
           <a href="https://blooms-bay.netlify.app/">
             <Image
@@ -37,7 +37,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className=" my-10 md:my-0 md:mb-10 md:mx-4 bg-white mx-16 px-8 md:px-4 md:mt-12 border-4 border-black rounded-lg shadow-lg md:mt-20  ">
+        <div className=" my-10 md:my-0 md:mb-10 md:mx-4 bg-white mx-16 px-2 text-center md:px-4 md:mt-12 border-4 border-black rounded-lg shadow-lg md:mt-20  ">
           <a href="https://react-gallery-sheikh.vercel.app/">
             <Image
               src="/Projects/web-Gallery.png"
@@ -64,7 +64,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className=" my-10  md:my-0  md:mb-10 md:mx-4 bg-white mx-16 px-8 md:px-4  border-4 border-black rounded-lg shadow-lg md:mt-20  md:hidden lg:block">
+        <div className=" my-10  md:my-0  md:mb-10 md:mx-4 bg-white mx-16 px-2 text-center md:px-4  border-4 border-black rounded-lg shadow-lg md:mt-20  md:hidden lg:block">
           {' '}
           <a href="https://nazreensheikh.github.io/TextUtils/">
             <Image
@@ -93,7 +93,7 @@ export default function Skills() {
         {/* <div className="bg-white md:w-4 md:mt-20 md:h-l-height md:mr-4 "></div> */}
       </div>
       <div className="flex justify-between md:mt-10">
-        <div className="hidden  md:my-0 md:mx-4 bg-white mx-16 px-8 md:px-4  border-4 border-black rounded-lg shadow-lg md:my-auto  md:block lg:hidden">
+        <div className="hidden  md:my-0 md:mx-4 bg-white mx-16 px-2 text-center md:px-4  border-4 border-black rounded-lg shadow-lg md:my-auto  md:block lg:hidden">
           {' '}
           <a href="https://nazreensheikh.github.io/TextUtils/">
             <Image
@@ -119,7 +119,7 @@ export default function Skills() {
             </button>
           </div>
         </div>
-        <div className="  mt-10 mb-20 md:mb-24 md:my-0 md:mx-4 bg-white mx-16 px-8 md:px-4 border-4 border-black rounded-lg shadow-lg md:mt-20 lg:w-cus-width">
+        <div className="  mt-10 mb-20 md:mb-24 md:my-0 md:mx-4 bg-white mx-16 px-2 text-center md:px-4 border-4 border-black rounded-lg shadow-lg md:mt-20 lg:w-cus-width">
           {' '}
           <a href="https://momentum-phi.vercel.app/">
             <Image

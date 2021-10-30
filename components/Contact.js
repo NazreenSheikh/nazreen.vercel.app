@@ -82,7 +82,7 @@ export default function Contact() {
           </div>
 
           <form onSubmit={formSubmit} className="mt-8 md:flex">
-            <div className="flex flex-col px-4 text-lg ">
+            <div className="flex flex-col px-7 text-lg ">
               <input
                 type="text"
                 ref={nameRef}
