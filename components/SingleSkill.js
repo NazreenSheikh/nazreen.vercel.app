@@ -48,7 +48,7 @@ export const Tools = [
     Img: 'vscode.svg',
   },
 ]
-export const Plateforms = [
+export const Platforms = [
   {
     name: 'Linux',
     links: 'https://www.linux.org/',

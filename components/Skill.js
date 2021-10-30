@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Languages, Tools, Plateforms } from './SingleSkill'
+import { Languages, Tools, Platforms } from './SingleSkill'
 import uuid from 'react-uuid'
 
 export default function Skills() {
@@ -39,7 +39,7 @@ export default function Skills() {
               <div className="md:flex justify-between text-center  my-8 md:my-3 lg:my-0 ">
                 {Tools.map((tool) => {
                   return (
-                    <a href={tool.links} key={uuid()} className=" p-4 md:p-0">
+                    <a href={tool.links} key={uuid()} className=" px-2 md:p-0">
                       <Image
                         src={'/Images/' + tool.Img}
                         alt={tool.name}
@@ -54,15 +54,15 @@ export default function Skills() {
           </div>
           <div className="justify-between w-3/4 border-4 border-black rounded-lg shadow-xl md:flex md:h-28 h-72 bg-custom-green">
             <div className="p-3 text-2xl text-center md:text-4xl">
-              Plateforms
+              Platforms
             </div>
             <div className="flex justify-around mt-16 md:mt-0 md:px-4">
-              {Plateforms.map((plateform) => {
+              {Platforms.map((platform) => {
                 return (
-                  <a href={plateform.links} key={uuid()}>
+                  <a href={platform.links} key={uuid()}>
                     <Image
-                      src={'/Images/' + plateform.Img}
-                      alt={plateform.name}
+                      src={'/Images/' + platform.Img}
+                      alt={platform.name}
                       height={100}
                       width={100}
                     />
