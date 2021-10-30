@@ -3,4 +3,8 @@
 @import 'tailwindcss/utilities';
 body {
   scroll-behavior: smooth;
+
+}
+#__next >div >div{
+  width: fit-content;
 }
