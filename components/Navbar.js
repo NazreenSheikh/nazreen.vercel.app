@@ -8,7 +8,7 @@ export default function Skills() {
           <a className="hidden md:block">NAZREEN</a>
         </Link>
       </h2>
-      <ul className="flex items-center justify-between mx-auto space-x-4 text-lg text-gray-600 md:text-xl md:mx-0 lg:text-2xl md:space-x-12 ">
+      <ul className="flex items-center justify-between mx-auto space-x-8 text-lg text-gray-600 md:text-xl md:mx-0 lg:text-2xl md:space-x-12 ">
         <li>
           <Link href="/#Home">
             <a>Home</a>
