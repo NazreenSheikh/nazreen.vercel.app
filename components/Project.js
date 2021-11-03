@@ -93,7 +93,7 @@ export default function Skills() {
         {/* <div className="bg-white md:w-4 md:mt-20 md:h-l-height md:mr-4 "></div> */}
       </div>
       <div className="flex justify-between md:mt-10">
-        <div className="hidden  md:my-0 md:mx-4 bg-white mx-10 px-2 text-center md:px-4  border-4 border-black rounded-lg shadow-lg md:my-auto  md:block lg:hidden">
+        <div className="hidden  md:mt-20 md:mx-4 bg-white mx-10 px-2 text-center md:px-4  border-4 border-black rounded-lg shadow-lg md:my-auto  md:block lg:hidden">
           {' '}
           <a href="https://nazreensheikh.github.io/TextUtils/">
             <Image

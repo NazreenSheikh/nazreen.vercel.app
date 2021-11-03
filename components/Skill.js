@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Languages, Tools, Platforms } from './SingleSkill'
+import { Languages, Tools, Platforms } from './data'
 import uuid from 'react-uuid'
 
 export default function Skills() {

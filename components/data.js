@@ -27,7 +27,7 @@ export const Tools = [
     links: 'https://git-scm.com/',
     Img: 'git-scm-icon.svg',
   },
-  {SingleSkill
+  {
     name: 'Figma',
     links: 'https://figma.com/',
     Img: 'figma-icon.svg',
