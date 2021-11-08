@@ -20,7 +20,7 @@ export const Tools = [
   {
     name: 'Mysql',
     links: 'https://www.mysql.com/',
-    Img: 'mysql-official.svg',
+    Img: 'mysql-official.png',
   },
   {
     name: 'Git',
