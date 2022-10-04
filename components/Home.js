@@ -25,11 +25,11 @@ export default function Home() {
               Full Stack Web Developer And Designer
             </p>
           </div>
-          <div className="text-xl text-center text-custom-green md:mt-4 md:text-xl md:text-left md:-bottom-32 ">
-            <button className="p-3 mx-4 mt-6 text-white bg-custom-green md:p-4 ">
+          <div className="text-xl text-custom-green md:mt-4 md:text-xl md:text-left md:-bottom-32 ">
+            <button className="p-3 mt-6 text-white bg-custom-green md:p-4 ">
               <a href="#Contact">CONTACT ME</a>
             </button>
-            <ul className="flex justify-between w-3/5 px-4 mx-auto mt-8  text-center text-black md:mt-6 md:text-5xl md:w-3/4 md:mx-0 ">
+            <ul className="flex justify-between w-3/5 mt-8  text-black md:mt-6 text-3xl md:text-5xl md:w-3/4 md:mx-0 ">
               <li>
                 <a href="http://www.twitter.com/nazreenshaikh6">
                   <AiFillTwitterCircle className="hover:text-custom-green" />
@@ -62,8 +62,8 @@ export default function Home() {
           <Image
             src="/Images/Mask Group.svg"
             alt="nazreen's pic"
-            height={550}
-            width={550}
+            height={ 550 }
+            width={ 550 }
           />
         </div>
       </div>
