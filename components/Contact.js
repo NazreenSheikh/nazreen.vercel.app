@@ -77,43 +77,51 @@ export default function Contact() {
               </a>
             </li>
           </ul>
-          <div className="mt-8 text-xl md:text-3xl">
+          <div className="mt-8 mb-8 text-xl md:text-3xl">
             Direct send me Your Message :)
           </div>
 
-          <form onSubmit={formSubmit} className="mt-8 md:flex">
-            <div className="flex flex-col px-7 text-lg ">
-              <input
-                type="text"
-                ref={nameRef}
-                placeholder="your name"
-                required
-                className="p-2 mb-4 bg-gray-200 border-2 border-black rounded"
-              />
-              <input
-                type="email"
-                ref={emailRef}
-                placeholder="your email"
-                required
-                className="p-2 mb-6 bg-gray-200 border-2 border-black rounded"
-              />
-            </div>
-            <div className="md:px-2">
+          <form onSubmit={ formSubmit }>
+            <div className="flex flex-col justify-between mb-4 md:gap-16 md:justify-start md:flex-row">
+              <div className="flex flex-col justify-evenly">
+                <input
+                  type="text"
+                  ref={ nameRef }
+                  placeholder="your name"
+                  required
+                  className="max-w-sm p-2 mb-4 bg-gray-200 border-2 border-black rounded"
+                />
+                <input
+                  type="email"
+                  ref={ emailRef }
+                  placeholder="your email"
+                  required
+                  className="max-w-sm p-2 mb-6 bg-gray-200 border-2 border-black rounded"
+                />
+              </div>
               <textarea
-                ref={messageRef}
-                cols="30"
-                rows="10"
+                ref={ messageRef }
+                cols="400"
+                rows="2"
                 placeholder="Message"
                 required
-                className="p-2 mb-6 bg-gray-200 border-2 border-black rounded md:mb-2"
+                className="max-w-sm p-2 hidden md:block mb-6 bg-gray-200 border-2 border-black rounded md:mb-2"
               />
-              <button
-                type="submit"
-                className="w-1/4 p-2 m-auto text-center text-white border-2 border-black rounded md:text-left md:w-11/12 mb-7 md:mb-0 bg-custom-green focus:outline-none"
-              >
-                {loading}
-              </button>
+              <textarea
+                ref={ messageRef }
+                cols="400"
+                rows="5"
+                placeholder="Message"
+                required
+                className="max-w-sm md:hidden p-2 mb-6 bg-gray-200 border-2 border-black rounded md:mb-2"
+              />
             </div>
+            <button
+              type="submit"
+              className="max-w-md px-4 py-2 font-bold text-left text-white border-2 border-black rounded md:text-left w-1/2 mb-7 md:mb-0 bg-custom-green focus:outline-none"
+            >
+              { loading }
+            </button>
           </form>
         </div>
       </div>
